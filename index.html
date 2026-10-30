@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Início | Automação Industrial</title>
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="navbar">
+      <a class="brand" href="index.html">Automação Industrial</a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+      <label for="nav-toggle" class="nav-toggle" aria-label="Abrir menu">
+        <span class="bars"><span></span><span></span><span></span></span>
+      </label>
+
+      <nav class="nav-menu" aria-label="Navegação principal">
+        <a class="nav-link is-active" href="index.html">Início</a>
+
+        <details class="nav-dropdown">
+          <summary>Cibersistemas</summary>
+          <div class="dropdown-panel">
+            <a href="src/html/cibersistemas/supervisorio.html">Supervisório</a>
+            <a href="src/html/cibersistemas/painel_eletrico.html">Painel Elétrico</a>
+            <a href="src/html/cibersistemas/driver_comunicacao.html">Driver de Comunicação</a>
+            <a href="src/html/cibersistemas/profinet.html">Profinet</a>
+            <a href="src/html/cibersistemas/piramide_automacao.html">Pirâmide de Automação</a>
+            <a href="src/html/cibersistemas/cadesimu.html">CADe SIMU</a>
+            <a href="src/html/cibersistemas/trello.html">Trello</a>
+            <a href="src/html/cibersistemas/scrum.html">Scrum</a>
+            <a href="src/html/cibersistemas/design_thinking.html">Design Thinking</a>
+            <a href="src/html/cibersistemas/clp.html">PLC (Programmable Logic Controller)</a>
+          </div>
+        </details>
+
+        <details class="nav-dropdown">
+          <summary>Componentes</summary>
+          <div class="dropdown-panel">
+            <a href="src/html/componentes/disjuntor.html">Disjuntor</a>
+            <a href="src/html/componentes/contator.html">Contator</a>
+            <a href="src/html/componentes/botoeira.html">Botão Pulso (Botoeira)</a>
+            <a href="src/html/componentes/chave-manopla.html">Chave Manopla (Retenção)</a>
+            <a href="src/html/componentes/motor-trifasico.html">Motor Elétrico Trifásico</a>
+            <a href="src/html/componentes/multimetro.html">Multímetro</a>
+            <a href="src/html/componentes/rele-temporizador.html">Relé Temporizador</a>
+            <a href="src/html/componentes/rele-termico.html">Relé Térmico</a>
+            <a href="src/html/componentes/clp.html">PLC (Programmable Logic Controller)</a>
+          </div>
+        </details>
+
+        <details class="nav-dropdown">
+          <summary>Sensores</summary>
+          <div class="dropdown-panel">
+            <a href="src/html/sensores/fim-de-curso.html">Sensor Fim de Curso</a>
+            <a href="src/html/sensores/capacitivo.html">Sensor Capacitivo</a>
+            <a href="src/html/sensores/indutivo.html">Sensor Indutivo</a>
+            <a href="src/html/sensores/nivel.html">Sensor de Nível</a>
+            <a href="src/html/sensores/fotoeletrico.html">Sensor Fotoelétrico</a>
+            <a href="src/html/sensores/ultrassonico.html">Sensor Ultrassônico</a>
+            <a href="src/html/sensores/temperatura.html">Sensor de Temperatura</a>
+          </div>
+        </details>
+
+        <a class="nav-link" href="index.html#contato">Sobre nós</a>
+      </nav>
+    </div>
+
+
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <span class="eyebrow">Cibersistemas — SENAI</span>
+        <h1>Automação Industrial</h1>
+        <p class="lead">Pesquisa organizada sobre os componentes e sensores usados em automação industrial: conceito, funcionamento, aplicações práticas e os fabricantes que dominam o mercado.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="src/html/cibersistemas/index.html">Explorar Cibersistemas</a>
+          <a class="btn btn-secondary" href="src/html/componentes/index.html">Explorar Componentes</a>
+          <a class="btn btn-secondary" href="src/html/sensores/index.html">Explorar Sensores</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-inner two-col">
+        <div>
+          <span class="eyebrow">Conceito</span>
+          <h2>O que é Automação Industrial</h2>
+          <p>Automação industrial é o uso de sistemas de controle — CLPs, sensores, atuadores e software — para operar máquinas e processos com mínima intervenção humana. Está presente na indústria, no agronegócio, na construção civil e em praticamente qualquer processo que exija repetição, precisão ou segurança.</p>
+        </div>
+        <div>
+          <span class="eyebrow">Componentes</span>
+          <h2>O papel dos componentes</h2>
+          <p>Componentes elétricos guiam, processam, armazenam e transformam energia e dados dentro de um painel. São eles que traduzem uma lógica de controle em ação física real sobre a máquina.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section surface" id="cibersistemas">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="eyebrow">Catálogo</span>
+          <h2>Cibersistemas</h2>
+          <p>Dez temas de software, redes, projeto elétrico e metodologias usados na automação industrial.</p>
+        </div>
+        <div class="grid grid-3">
+          <a class="card" href="src/html/cibersistemas/supervisorio.html">
+            <span class="index">01</span>
+            <h3>Supervisório</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/cibersistemas/painel_eletrico.html">
+            <span class="index">02</span>
+            <h3>Painel Elétrico</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/cibersistemas/driver_comunicacao.html">
+            <span class="index">03</span>
+            <h3>Driver de Comunicação</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/cibersistemas/profinet.html">
+            <span class="index">04</span>
+            <h3>Profinet</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/cibersistemas/piramide_automacao.html">
+            <span class="index">05</span>
+            <h3>Pirâmide de Automação</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/cibersistemas/cadesimu.html">
+            <span class="index">06</span>
+            <h3>CADe SIMU</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/cibersistemas/trello.html">
+            <span class="index">07</span>
+            <h3>Trello</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/cibersistemas/scrum.html">
+            <span class="index">08</span>
+            <h3>Scrum</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/cibersistemas/design_thinking.html">
+            <span class="index">09</span>
+            <h3>Design Thinking</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/cibersistemas/clp.html">
+            <span class="index">10</span>
+            <h3>PLC (Programmable Logic Controller)</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="componentes">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="eyebrow">Catálogo</span>
+          <h2>Componentes</h2>
+          <p>Nove componentes fundamentais de comando, proteção e acionamento.</p>
+        </div>
+        <div class="grid grid-3">
+          <a class="card" href="src/html/componentes/disjuntor.html">
+            <span class="index">01</span>
+            <h3>Disjuntor</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/componentes/contator.html">
+            <span class="index">02</span>
+            <h3>Contator</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/componentes/botoeira.html">
+            <span class="index">03</span>
+            <h3>Botão Pulso (Botoeira)</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/componentes/chave-manopla.html">
+            <span class="index">04</span>
+            <h3>Chave Manopla (Retenção)</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/componentes/motor-trifasico.html">
+            <span class="index">05</span>
+            <h3>Motor Elétrico Trifásico</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/componentes/multimetro.html">
+            <span class="index">06</span>
+            <h3>Multímetro</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/componentes/rele-temporizador.html">
+            <span class="index">07</span>
+            <h3>Relé Temporizador</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/componentes/rele-termico.html">
+            <span class="index">08</span>
+            <h3>Relé Térmico</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/componentes/clp.html">
+            <span class="index">09</span>
+            <h3>PLC (Programmable Logic Controller)</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section surface">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="eyebrow">Fundamentos</span>
+          <h2>Sensores, Controladores e Atuadores</h2>
+        </div>
+        <div class="grid grid-3">
+          <div class="card">
+            <h3>Sensores</h3>
+            <p>Captam informações do ambiente — presença, distância, temperatura, pressão — e enviam esses dados ao controlador.</p>
+          </div>
+          <div class="card">
+            <h3>Controladores</h3>
+            <p>São o "cérebro" do sistema: processam as informações recebidas dos sensores e decidem qual ação tomar.</p>
+          </div>
+          <div class="card">
+            <h3>Atuadores</h3>
+            <p>Executam fisicamente as ações determinadas pelo controlador, como motores, válvulas e contatores.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sensores">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="eyebrow">Catálogo</span>
+          <h2>Sensores</h2>
+          <p>Sete tecnologias de sensoriamento usadas para "dar sentidos" a uma máquina.</p>
+        </div>
+        <div class="grid grid-3">
+          <a class="card" href="src/html/sensores/fim-de-curso.html">
+            <span class="index">01</span>
+            <h3>Sensor Fim de Curso</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/sensores/capacitivo.html">
+            <span class="index">02</span>
+            <h3>Sensor Capacitivo</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/sensores/indutivo.html">
+            <span class="index">03</span>
+            <h3>Sensor Indutivo</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/sensores/nivel.html">
+            <span class="index">04</span>
+            <h3>Sensor de Nível</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/sensores/fotoeletrico.html">
+            <span class="index">05</span>
+            <h3>Sensor Fotoelétrico</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+          <a class="card" href="src/html/sensores/ultrassonico.html">
+            <span class="index">06</span>
+            <h3>Sensor Ultrassônico</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+         
+          <a class="card" href="src/html/sensores/temperatura.html">
+            <span class="index">07</span>
+            <h3>Sensor de Temperatura</h3>
+            <span class="card-link">Ver detalhes &rarr;</span>
+          </a>
+        
+        </div>
+      </div>
+    </section>
+
+    <section class="section surface">
+      <div class="section-inner">
+    
+        <div class="section-header">
+          <span id="contato" class="eyebrow">Contatos</span>
+          <h2>Sobre nós</h2>
+        </div>
+    
+        <div class="grid grid-3">
+          <!-- Card 1 -->
+          <div class="card">
+            <h3>Ana Luiza Martins</h3>
+            <div class="social-links">
+              <!-- Gmail / E-mail -->
+              <a href="mailto:seuemail@gmail.com" class="social-icon gmail" title="E-mail">
+                <i class="fa-solid fa-envelope"></i> Gmail
+              </a><br>
+              <!-- GitHub -->
+              <a href="https://github.com/MisfortuneS2" target="_blank" rel="noopener noreferrer" class="social-icon github" title="GitHub">
+                <i class="fa-brands fa-github"></i> Github
+              </a><br>
+              <!-- WhatsApp -->
+              <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" class="social-icon whatsapp" title="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i> Whatsapp
+              </a>
+            </div>
+          </div>
+    
+          <!-- Card 2 -->
+          <div class="card">
+            <h3>Arthur Giovanni Zanella</h3>
+            <div class="social-links">
+              <!-- Gmail / E-mail -->
+              <a href="mailto:seuemail@gmail.com" class="social-icon gmail" title="E-mail">
+                <i class="fa-solid fa-envelope"></i> Gmail
+              </a><br>
+              <!-- GitHub -->
+              <a href="https://github.com/MisfortuneS2" target="_blank" rel="noopener noreferrer" class="social-icon github" title="GitHub">
+                <i class="fa-brands fa-github"></i> Github
+              </a><br>
+              <!-- WhatsApp -->
+              <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" class="social-icon whatsapp" title="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i> Whatsapp
+              </a>
+            </div>
+          </div>
+    
+          <!-- Card 3 -->
+          <div class="card">
+            <h3>Erick Cruz</h3>
+            <div class="social-links">
+              <!-- Gmail / E-mail -->
+              <a href="mailto:seuemail@gmail.com" class="social-icon gmail" title="E-mail">
+                <i class="fa-solid fa-envelope"></i> Gmail
+              </a>
+              <br>
+              <!-- GitHub -->
+              <a href="https://github.com/MisfortuneS2" target="_blank" rel="noopener noreferrer" class="social-icon github" title="GitHub">
+                <i class="fa-brands fa-github"></i> Github
+              </a>
+              <br>
+              <!-- WhatsApp -->
+              <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" class="social-icon whatsapp" title="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i> Whatsapp
+              </a>
+            </div>
+          </div>  
+    
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="brand-small">Automação Industrial</span>
+      <span class="footer-meta">&copy; 2026 Automação Industrial — Projeto acadêmico (SENAI). Desenvolvido por <strong>Erick Cruz</strong>.</span>
+    </div>
+  </footer>
+</body>
+</html>

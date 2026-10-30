@@ -1,0 +1,140 @@
+Supervisório
+Painel elétrico
+Drive comunicação
+Redes industriais (profinet)
+Pirâmide de Automação
+Cad Simu
+Trello
+Scrum 
+Design thinking
+
+
+
+
+Sistema supervisório
+O sistema supervisório é um software utilizado para monitorar, controlar e visualizar processos industriais, permitindo acompanhar o funcionamento dos equipamentos e as variáveis do processo em tempo real.
+Funcionamento
+Coleta dados de CLPs e sensores, apresenta informações em telas gráficas e permite acompanhar alarmes, históricos e estados dos equipamentos.
+Aplicações
+Monitoramento de processos industriais.
+Controle de máquinas e equipamentos.
+Visualização de alarmes e falhas.
+Registro de dados de produção.
+Vantagens
+Monitoramento centralizado.
+Identificação rápida de falhas.
+Maior eficiência operacional.
+Facilidade na análise e no controle dos processos.
+__________________________________________________________
+
+Painel elétrico
+O painel elétrico é uma estrutura que reúne dispositivos elétricos destinados à distribuição de energia, proteção, comando e controle de máquinas e instalações.
+Funcionamento
+Abriga componentes como disjuntores, contatores, relés e controladores, que organizam a distribuição de energia e permitem controlar e proteger os circuitos elétricos.
+Aplicações
+Comando de máquinas industriais.
+Distribuição de energia elétrica.
+Controle de motores e equipamentos.
+Sistemas de automação industrial.
+Vantagens
+Maior segurança das instalações.
+Proteção contra falhas elétricas.
+Organização dos componentes.
+Facilidade de manutenção e controle dos sistemas.
+_________________________________________________________
+
+Design Thinking
+O Design Thinking é uma abordagem de inovação centrada no ser humano, utilizada para compreender problemas, desenvolver ideias criativas e criar soluções que atendam às necessidades dos usuários.
+Funcionamento
+É baseado em etapas como empatia, definição do problema, ideação, prototipagem e testes, permitindo aprimorar soluções a partir do feedback dos usuários.
+Aplicações
+Desenvolvimento de produtos e serviços.
+Resolução de problemas complexos.
+Criação de soluções inovadoras.
+Melhoria da experiência do usuário.
+Vantagens
+Estimula a criatividade e a inovação.
+Incentiva a colaboração em equipe.
+Facilita a identificação de necessidades.
+Reduz riscos por meio de testes e protótipos.
+_______________________________________________
+
+Scrum
+O Scrum é uma metodologia ágil de gerenciamento de projetos que organiza o trabalho em ciclos curtos, chamados Sprints, permitindo entregas frequentes e melhorias contínuas.
+Funcionamento
+Divide o projeto em etapas curtas, com planejamento, execução, acompanhamento diário e revisão dos resultados, promovendo a colaboração e a adaptação às mudanças.
+Aplicações
+Desenvolvimento de softwares.
+Gerenciamento de projetos.
+Organização de tarefas em equipe.
+Desenvolvimento de produtos e soluções.
+Vantagens
+Maior flexibilidade e adaptação.
+Melhor comunicação entre equipes.
+Identificação rápida de problemas.
+Entregas frequentes e melhoria contínua.
+__________________________________________________________
+
+Trello
+O Trello é uma ferramenta de gerenciamento de projetos e tarefas que utiliza quadros, listas e cartões para organizar atividades, acompanhar prazos e facilitar o trabalho em equipe.
+Funcionamento
+Organiza tarefas em quadros e cartões, permitindo definir responsáveis, adicionar prazos, anexar arquivos e acompanhar o progresso das atividades.
+Aplicações
+Gerenciamento de projetos.
+Organização de tarefas e prazos.
+Planejamento de atividades em equipe.
+Acompanhamento de etapas de trabalho.
+Vantagens
+Interface simples e intuitiva.
+Melhor organização das tarefas.
+Facilidade na colaboração entre equipes.
+Visualização rápida do andamento dos projetos.
+___________________________________________________________
+
+CADe SIMU
+O CAD SIMU é um software utilizado para desenhar e simular circuitos elétricos de comando e potência, permitindo testar o funcionamento de sistemas de automação antes de sua montagem física.
+Funcionamento
+Permite criar diagramas elétricos com símbolos padronizados e simular o acionamento de componentes, como contatores, relés, motores e botoeiras.
+Aplicações
+Elaboração de diagramas elétricos.
+Simulação de circuitos de comando e potência.
+Estudos de acionamento de motores.
+Ensino de comandos elétricos.
+Vantagens
+Facilita a aprendizagem de circuitos elétricos.
+Permite identificar erros antes da montagem.
+Reduz custos com testes físicos.
+Auxilia no planejamento de instalações elétricas.
+___________________________________________________
+
+Pirâmide de Automação
+A Pirâmide de Automação é um modelo que organiza os níveis de controle e gerenciamento de uma indústria, desde os equipamentos de campo até os sistemas de gestão empresarial, facilitando a integração e o fluxo de informações.
+Funcionamento
+É dividida em níveis hierárquicos que realizam funções específicas, como coleta de dados, controle de máquinas, supervisão de processos e gerenciamento da produção.
+Aplicações
+Organização dos sistemas industriais.
+Integração entre máquinas e sistemas de gestão.
+Controle e monitoramento da produção.
+Gerenciamento de processos industriais.
+Vantagens
+Melhor organização dos processos.
+Maior eficiência operacional.
+Integração entre diferentes sistemas.
+Facilidade no monitoramento e na tomada de decisões.
+______________________________________________________
+
+Drivers de comunicação
+Drivers de comunicação são softwares responsáveis por estabelecer a interface entre sistemas computacionais e dispositivos físicos, permitindo a transmissão, recepção e interpretação de dados por meio de protocolos específicos.
+Funcionamento
+Atuam como intermediários entre aplicações e equipamentos, convertendo dados para formatos compatíveis com o protocolo utilizado e gerenciando solicitações, respostas e parâmetros de comunicação.
+Aplicações
+Integração de CLPs, sensores, atuadores e sistemas supervisórios.
+Comunicação em redes industriais, como Modbus, PROFINET e EtherNet/IP.
+Monitoramento e controle de processos automatizados.
+Integração de equipamentos de diferentes fabricantes.
+Vantagens
+Maior interoperabilidade entre dispositivos e sistemas.
+Agilidade na troca e no processamento de informações.
+Facilidade de integração e expansão de sistemas industriais.
+Melhoria na supervisão, no diagnóstico de falhas e na eficiência operacional.
+________________________________________
